@@ -8,6 +8,7 @@ body{
 header{
   justify-content: center;
   text-align: center;
+  display: block;
 }
 #heading{
   font-family: sans-serif;
@@ -99,14 +100,23 @@ background-color: #45462a;
    list-style-type: none;
    padding: 0;
    color: blanchedalmond;
-}
+  }
+   /*TODO: Createa a top nav bar that is shown on small viewports*/
+   /* @media screen and (min-width: 0px) {
+     #nav-menu { display: block; }
+   }*/
 footer{
   padding: 1rem;
   background-color: #343330;
+  justify-content: center;
   text-align: center;
 }
 #icon {
 width:3rem;
 margin: 0.5rem;
 height: auto;
+}
+
+a:link{
+  color: inherit;
 }
