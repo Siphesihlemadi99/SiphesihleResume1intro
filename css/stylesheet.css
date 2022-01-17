@@ -1,14 +1,20 @@
 body{
   font-family: sans-serif;
   font-size: 110%;
-  background-color: #FCF7F8;
-  display: flex;
+  background-color:aliceblue;
+  display: block;
+  margin: 8px;
   flex-direction: column;
+  border: 10px solid #D42;
 }
 header{
   justify-content: center;
   text-align: center;
   display: block;
+  background-color :#1f2833;
+  color: #ccc;
+ 
+
 }
 #heading{
   font-family: sans-serif;
@@ -17,67 +23,17 @@ header{
   padding: 1rem;
   color:#ccc;
 }
-h2 {
-  font-size: 40px;
-  background-color: #ccc;
-  margin: 50px;
-  padding: 50px;
-}
-
-h2 {
-  border-style: solid;
-  border-width: 5px;
-  border-left-width: 14px;
-  border-right-width: 14px;
-  border-color: red;
-  border-radius: 10px 20px 30px 40px;    
-}
 #headshot{
   width: 15%;
   height:15%;
  border-radius: 50%;
-  border: 3px solid #D1603D;
+  border: 3px ;
+  position: relative;
+  top :2px;
 }
 #element2{
   position : relative;
   left : 10px;
-}
-div {
-  width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
-}
-table {
-  border: 1px solid black;
-  table {
-    width: 100%;
-  }
-  
-  th {
-    height: 100px;
-  }
-  
-}
-p {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
-
-  div {
-    padding: 25px 50px 75px 100px;
-  }
-  
-
-}  article{text-align:left;
-  font-family:arial,helvetica,sans-serif;
-background-color:rgb(15,48,85;)
-width:80%;}
-}
-  background- colour : blue;
-}h1 { 
-  color: blue 
 }
 .main{
   display: flex;
@@ -86,13 +42,15 @@ width:80%;}
 }
 #sidebar {
 width: 20%;
-padding: 1rem;
+padding: rem;
 background-color: #45462a;
-
+color: aliceblue;
+position: relative;
+top: 20px;
 }
 
 #content{
-  width: 80%;
+  width: 50%;
   padding : 1rem;
   margin: 1rem;
 }
@@ -106,17 +64,20 @@ background-color: #45462a;
      #nav-menu { display: block; }
    }*/
 footer{
-  padding: 1rem;
   background-color: #343330;
   justify-content: center;
   text-align: center;
+  color: aliceblue;
+  
 }
 #icon {
-width:3rem;
+width:1px;
 margin: 0.5rem;
 height: auto;
+border-radius: 20px;
 }
-
 a:link{
   color: inherit;
+}
+
 }
